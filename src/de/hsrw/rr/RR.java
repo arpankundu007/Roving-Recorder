@@ -190,9 +190,6 @@ public class RR extends Activity {
 			}
 			catch (Throwable thr)
 			{
-				// IllegalArgumentException,
-				// IllegalStateException
-				// IOException
 				Log.e(TAG, "could not play audio", thr);
 			}
 	}
